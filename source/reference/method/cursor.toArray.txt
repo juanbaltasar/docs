@@ -16,7 +16,7 @@ cursor.toArray()
    .. include:: /includes/fact-mongo-shell-method.rst
 
 
-   The :method:`~cursor.toArray()` method returns an array that
+   The :method:`~cursor.toArray()` method returns a promise that, if succesful, returns an array that
    contains all the documents from a cursor. The method iterates
    completely the cursor, loading all the documents into RAM and
    exhausting the cursor.
